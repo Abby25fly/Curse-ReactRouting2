@@ -1,28 +1,155 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+  background: #5fcf80; 
+  font-family: arial;
+  color: #576366;
+  font-family: 'Roboto', sans-serif;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.boardText {
+  background: white;
+  width: 700px;
+  margin: 70px auto;
+  border-radius: 15px;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
+h2{
+  font-weight: bold;
+  color: black;
+}
+menu ul{
+  margin: 0;
+  padding: 0;
+ }
+
+menu li {
+  display: inline-block;
+  padding: 16px;
+  color: black;
+  text-decoration: none;
+}
+menu li:hover {
+  background-color: #3b80d1;
   color: white;
 }
-
-.App-title {
-  font-size: 1.5em;
+a{
+  text-decoration: none;
+  color: black;
 }
 
-.App-intro {
-  font-size: large;
+a:hover{
+  color: white;
+  text-decoration: none;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.header {
+  display: flex;
+  box-sizing: border-box;
+  background-color: #edeff0;
+  color: black;
+  font-size: 20px;
+  width: 700px;
+  height: 60px;
+  margin: 0;
+  padding-top: 0;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.icn-logo{
+  display: block;
+  width: 12%;
+  text-align: center;
+  padding-bottom: 4px;
+  background: #54606b;
+  color: #fff;
+  border-top-left-radius: 15px;
+}
+
+.icn-logo i {
+  font-size: 2.45em;
+  line-height: 0;
+  margin-top: 30px;
+  }
+
+menu {
+  display: inline-block;
+  margin-top: 0;
+  align-content: left;
+  width: 88%;
+  text-align: right;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  padding-right: 10px;
+  background-color: #edeff0;
+}
+
+
+
+.main-content{
+  padding: 40px 30px;
+  background-color: white;
+}
+
+.teachers{
+  display: block;
+}
+.divPhoto{
+  display: inline-block;
+  padding: 10px;
+}
+
+img{
+ width: 100%;
+ height: auto;
+}
+
+.course-nav {
+  display: flex;
+  margin: 1.5em 0 3.2em;
+  align-self: right;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.courseBtn a{
+  background-color: #BDB9B9;
+  color: white;
+  padding: 3px 8px;
+  display: inline-block;
+  margin: 6px;
+  text-decoration: none;
+}
+.course-img {
+  width: 70px;
+}
+.container{
+  background-color: white;
+}
+.photo{
+  width: 70px;
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/materialicons/v29/2fcrYFNaTjcS6g4U3t-Y5ZjZjT5FdEJ140U2DJYC3mY.woff2) format('woff2');
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
 }
